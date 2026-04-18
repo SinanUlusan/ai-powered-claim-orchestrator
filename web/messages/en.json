@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "title": "Claim Orchestrator",
+    "description": "AI-powered insurance claim dashboard"
+  },
+  "common": {
+    "close": "Close",
+    "cancel": "Cancel",
+    "remove": "Remove",
+    "done": "Done",
+    "file": "File"
+  },
+  "localeSwitcher": {
+    "label": "Language",
+    "en": "English",
+    "tr": "Turkish"
+  },
+  "dashboard": {
+    "loading": "Loading claim…",
+    "errorTitle": "Could not load claim",
+    "errorUnknown": "Unknown error",
+    "errorDescription": "We could not load your claim. Try again in a moment.",
+    "perfTitle": "Responsiveness check",
+    "perfDescription": "Last fetch round-trip indicator: ~{ms} ms after cache. Target UX: surface file no, ETA, and actionability immediately after data arrives."
+  },
+  "claimHeader": {
+    "subtitle": "Answers load from a single API call and are validated.",
+    "fileNumber": "File number",
+    "estimatedRemaining": "Estimated remaining",
+    "currentStage": "Current stage"
+  },
+  "actionAlert": {
+    "title": "Action required"
+  },
+  "timeline": {
+    "ariaLabel": "Claim process timeline",
+    "title": "Process timeline",
+    "subtitle": "Each card uses a registry-driven body—no giant switch on the whole payload.",
+    "userNodesGroupLabel": "After step {step}: {count} notes or attachments",
+    "userNodesSwipeHint": "Swipe sideways to browse all items."
+  },
+  "timelineStep": {
+    "explainAI": "Explain with AI",
+    "explainTooltip": "Simulated assistant—plain-language view of this step.",
+    "insertLabel": "Insert between steps",
+    "addNote": "Add information note",
+    "addAttachment": "Add attachment"
+  },
+  "userNode": {
+    "yourNote": "Your note",
+    "noteHint": "Inserted between milestones.",
+    "attachment": "Attachment",
+    "analysisIdle": "Not analyzed",
+    "analysisChecking": "Checking…",
+    "analysisPassed": "Passed",
+    "analysisFailed": "Needs review",
+    "analyzingHint": "AI document analyzer running",
+    "runAnalysis": "Run AI document check"
+  },
+  "modals": {
+    "explainHeading": "Explain with AI",
+    "noteHeading": "Add information note",
+    "noteSub": "Placed after the selected milestone.",
+    "noteLabel": "Note",
+    "notePlaceholder": "Type context for your adjuster…",
+    "noteDescription": "Visible in this session only.",
+    "saveNote": "Save note",
+    "attachmentHeading": "Add attachment",
+    "attachmentSub": "AI check—use “occupation” in the filename or a PDF for a quick pass."
+  },
+  "detailFields": {
+    "pickupLocation": "Pickup location",
+    "towingDate": "Towing date",
+    "dateTime": "Date & time",
+    "reportType": "Report type",
+    "reasonForDamage": "Reason for damage",
+    "reportingParty": "Reporting party",
+    "contact": "Contact",
+    "expertAssignmentDate": "Expert assignment",
+    "expertInfo": "Expert",
+    "vehicleDuration": "Duration",
+    "vehicleModel": "Vehicle",
+    "extraDuration": "Extra duration",
+    "reviewReferralDate": "Referral date",
+    "reviewCompletionDate": "Completion date",
+    "actionRequired": "Action required",
+    "occupationalDeduction": "Occupational deduction",
+    "appreciationDeduction": "Appreciation deduction",
+    "policyDeductible": "Policy deductible",
+    "nonDamageAmount": "Non-damage amount",
+    "paidTo": "Paid to",
+    "iban": "IBAN",
+    "paymentAmount": "Amount",
+    "note": "Note",
+    "completionDate": "Completion date"
+  },
+  "explain": {
+    "towing": "This step covers vehicle recovery. Status “{status}” means towing to the agreed location is finished. “Pickup location” is where the vehicle was collected; “towing date” records when transport happened.",
+    "claimNotification": "The claim was formally reported. “Report type” describes how the incident was documented (here: Agreed Minutes). “Reason for damage” classifies the event for coverage. The reporting party and contact are who filed or assisted with the report.",
+    "appraisal": "An expert assessed vehicle damage. “Expert assignment date” is when the appraiser was engaged. “Expert info” identifies the appraisal firm. Use the contact numbers if you need to reach them about the report.",
+    "rental": "This reflects a replacement rental while your vehicle is unavailable. “Vehicle duration” is how long rental coverage applied; “extra duration” would show extension days if any. “Vehicle model” is the class of car provided.",
+    "fileReview": "Insurer staff are reviewing documents and appraisal outcomes. “In Progress” means no decision is final yet. Completion date may show a placeholder until the review finishes.",
+    "deduction": "Deductions adjust the settlement (e.g. policy deductible, occupational clauses). “Action required” tells you what to upload or confirm—here an Occupational Certificate may be needed before payment logic finalizes.",
+    "payment": "Shows how payment would be sent: payee name, IBAN, and amount. Notes like “Payment Refunded” indicate a reversal or correction—verify with your adjuster if unexpected.",
+    "closed": "The claim reaches closure when all steps are complete and payments or denials are finalized. “Pending” here means the case is not yet formally closed in the system.",
+    "generic": "This milestone (“{title}”) is part of your claim timeline. Status “{status}” summarizes progress. Follow any highlighted actions to keep the file moving."
+  },
+  "errors": {
+    "fetchFailed": "Failed to load claim"
+  }
+}

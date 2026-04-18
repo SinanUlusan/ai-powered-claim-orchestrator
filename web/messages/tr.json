@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "title": "Hasat Orkestratörü",
+    "description": "Yapay zekâ destekli hasar başvuru paneli"
+  },
+  "common": {
+    "close": "Kapat",
+    "cancel": "İptal",
+    "remove": "Kaldır",
+    "done": "Tamam",
+    "file": "Dosya"
+  },
+  "localeSwitcher": {
+    "label": "Dil",
+    "en": "İngilizce",
+    "tr": "Türkçe"
+  },
+  "dashboard": {
+    "loading": "Hasar yükleniyor…",
+    "errorTitle": "Hasar yüklenemedi",
+    "errorUnknown": "Bilinmeyen hata",
+    "errorDescription": "Hasar bilgisi alınamadı. Lütfen bir süre sonra tekrar deneyin.",
+    "perfTitle": "Hız kontrolü",
+    "perfDescription": "Son istek süresi (önbellek sonrası): ~{ms} ms. Hedef: dosya no, tahmini süre ve yapılacakları hemen göstermek."
+  },
+  "claimHeader": {
+    "subtitle": "Yanıtlar tek bir API çağrısından gelir ve doğrulanır.",
+    "fileNumber": "Dosya numarası",
+    "estimatedRemaining": "Tahmini kalan süre",
+    "currentStage": "Güncel aşama"
+  },
+  "actionAlert": {
+    "title": "Aksiyon gerekli"
+  },
+  "timeline": {
+    "ariaLabel": "Hasar süreç zaman çizelgesi",
+    "title": "Süreç zaman çizelgesi",
+    "subtitle": "Her kart gövdesi kayıt defteriyle eşlenir—tüm yük için tek bir switch yoktur.",
+    "userNodesGroupLabel": "{step}. adımdan sonra: {count} not veya ek",
+    "userNodesSwipeHint": "Tüm öğeleri görmek için yatay kaydırın."
+  },
+  "timelineStep": {
+    "explainAI": "Yapay zekâ ile açıkla",
+    "explainTooltip": "Yapay zekâ asistanı—bu adımın sade dille özeti.",
+    "insertLabel": "Adımlar arasına ekle",
+    "addNote": "Bilgi notu ekle",
+    "addAttachment": "Ek dosya ekle"
+  },
+  "userNode": {
+    "yourNote": "Notunuz",
+    "noteHint": "Kilometre taşları arasına eklendi.",
+    "attachment": "Ek",
+    "analysisIdle": "Analiz edilmedi",
+    "analysisChecking": "Kontrol ediliyor…",
+    "analysisPassed": "Geçti",
+    "analysisFailed": "İnceleme gerekli",
+    "analyzingHint": "Yapay zekâ belge analizi çalışıyor",
+    "runAnalysis": "Yapay zekâ belge kontrolü çalıştır"
+  },
+  "modals": {
+    "explainHeading": "Yapay zekâ ile açıkla",
+    "noteHeading": "Bilgi notu ekle",
+    "noteSub": "Seçilen kilometre taşından sonra yerleştirilir.",
+    "noteLabel": "Not",
+    "notePlaceholder": "Eksperiniz için bağlam yazın…",
+    "noteDescription": "Yalnızca bu oturumda görünür.",
+    "saveNote": "Notu kaydet",
+    "attachmentHeading": "Ek dosya ekle",
+    "attachmentSub": "Yapay zekâ kontrolü—dosya adında “occupation” geçsin veya hızlı geçiş için PDF kullanın."
+  },
+  "detailFields": {
+    "pickupLocation": "Alım yeri",
+    "towingDate": "Çekici tarihi",
+    "dateTime": "Tarih ve saat",
+    "reportType": "Rapor türü",
+    "reasonForDamage": "Hasar nedeni",
+    "reportingParty": "Bildiren taraf",
+    "contact": "İletişim",
+    "expertAssignmentDate": "Eksper ataması",
+    "expertInfo": "Eksper",
+    "vehicleDuration": "Süre",
+    "vehicleModel": "Araç",
+    "extraDuration": "Ek süre",
+    "reviewReferralDate": "Sevk tarihi",
+    "reviewCompletionDate": "Tamamlanma tarihi",
+    "actionRequired": "Gerekli aksiyon",
+    "occupationalDeduction": "Mesleki indirim",
+    "appreciationDeduction": "Kıymet indirimi",
+    "policyDeductible": "Poliçe muafiyeti",
+    "nonDamageAmount": "Hasar dışı tutar",
+    "paidTo": "Ödeme alıcısı",
+    "iban": "IBAN",
+    "paymentAmount": "Tutar",
+    "note": "Not",
+    "completionDate": "Kapanış tarihi"
+  },
+  "explain": {
+    "towing": "Bu adım araç çekiciliğini kapsar. “{status}” durumu, anlaşılan noktaya çekicinin tamamlandığını gösterir. “Alım yeri” aracın alındığı yerdir; “çekici tarihi” nakliye zamanını kaydeder.",
+    "claimNotification": "Hasar resmen bildirildi. “Rapor türü” olayın nasıl belgelendiğini açıklar. “Hasar nedeni” teminat kapsamı için sınıflandırmadır. Bildiren taraf ve iletişim, raporu ileten kişi veya kurumdur.",
+    "appraisal": "Bir eksper araç hasarını değerlendirdi. “Eksper ataması” eksperin görevlendirildiği zamandır. “Eksper” değerlendirme firmasını belirtir. Rapor için onlara ulaşmanız gerekirse iletişim numaralarını kullanın.",
+    "rental": "Aracınız kullanılamazken ikame kiralık araç sürecini yansıtır. “Süre” kiralama teminatının ne kadar sürdüğünü; “ek süre” varsa uzatma günlerini gösterir. “Araç” sağlanan sınıfı belirtir.",
+    "fileReview": "Sigorta tarafı belgeleri ve eksper sonuçlarını inceliyor. “Devam ediyor” henüz kesin karar olmadığını gösterir. Tamamlanma tarihi inceleme bitene kadar yer tutucu olabilir.",
+    "deduction": "İndirimler ödemeyi ayarlar (ör. poliçe muafiyeti, mesleki maddeler). “Gerekli aksiyon” yüklemeniz veya onaylamanız gereken şeyi söyler—burada ödeme netleşmeden önce Meslek belgesi gerekebilir.",
+    "payment": "Ödemenin nasıl yapılacağını gösterir: alıcı adı, IBAN ve tutar. “Ödeme iade” gibi notlar ters kayıt veya düzeltmeyi gösterebilir—beklenmedikse eksperinizle doğrulayın.",
+    "closed": "Tüm adımlar tamamlandığında ve ödemeler veya retler kesinleştiğinde hasar kapanır. Buradaki “Beklemede” dosyanın sistemde henüz resmen kapanmadığını gösterir.",
+    "generic": "Bu kilometre taşı (“{title}”) zaman çizelgenizin parçasıdır. “{status}” durumu ilerlemeyi özetler. Dosyanın ilerlemesi için vurgulanan aksiyonları izleyin."
+  },
+  "errors": {
+    "fetchFailed": "Hasar verisi yüklenemedi"
+  }
+}
